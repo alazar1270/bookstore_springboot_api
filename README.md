@@ -49,13 +49,21 @@ To Run
   ./mvnw spring-boot:run
 
 Basic Endpoints
+
   GET /api/books - List all books
+  
   GET /api/books/{id} - Get book details
+  
   POST /api/books - Add a new book (Admin only)
+  
   PUT /api/books/{id} - Update a book (Admin only)
+  
   DELETE /api/books/{id} - Delete a book (Admin only)
+  
   GET /api/authors - List all authors
+  
   GET /api/categories - List all categories
+  
 
   
 ```sql

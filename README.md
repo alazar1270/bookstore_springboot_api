@@ -35,10 +35,6 @@ A Spring Boot RESTful API for managing a digital bookstore catalog, including bo
 * PostgreSQL installed and running locally
 * Maven (or the included wrapper)
 
-### Database Setup
-
-Create a local database named `bookstore_db`:
-
 
 To Run
 1. Clone the repository:
@@ -64,7 +60,9 @@ Basic Endpoints
   
   GET /api/categories - List all categories
   
+### Database Setup
 
+Create a local database named `bookstore_db`:
   
 ```sql
 CREATE DATABASE bookstore_db;

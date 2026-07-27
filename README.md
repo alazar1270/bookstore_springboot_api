@@ -39,8 +39,6 @@ A Spring Boot RESTful API for managing a digital bookstore catalog, including bo
 
 Create a local database named `bookstore_db`:
 
-```sql
-CREATE DATABASE bookstore_db;
 
 To Run
 1. Clone the repository:
@@ -58,3 +56,8 @@ Basic Endpoints
   DELETE /api/books/{id} - Delete a book (Admin only)
   GET /api/authors - List all authors
   GET /api/categories - List all categories
+
+  
+```sql
+CREATE DATABASE bookstore_db;
+
